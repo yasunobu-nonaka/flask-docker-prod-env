@@ -1,0 +1,51 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------
+# Flask
+# ----------------------
+instance/
+.webassets-cache
+
+# 環境変数
+.env
+
+# ----------------------
+# Docker
+# ----------------------
+*.log
+docker-compose.override.yml
+
+# ----------------------
+# データベース
+# ----------------------
+*.db
+*.sqlite3
+
+# PostgreSQLのローカルデータ（使う場合）
+pgdata/
+
+# ----------------------
+# IDE / エディタ
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS
+# ----------------------
+.DS_Store
+Thumbs.db
